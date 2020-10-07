@@ -1,0 +1,6 @@
+framework module OCFTDetectSDK {
+  umbrella header "OCFTDetectSDK.h"
+
+  export *
+  module * { export * }
+}

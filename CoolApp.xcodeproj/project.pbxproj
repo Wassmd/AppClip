@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A61608E252E36A500336CD2 /* CoolAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61608D252E36A500336CD2 /* CoolAppApp.swift */; };
+		9A616090252E36A500336CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61608F252E36A500336CD2 /* ContentView.swift */; };
+		9A616092252E36A700336CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A616091252E36A700336CD2 /* Assets.xcassets */; };
+		9A616095252E36A700336CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A616094252E36A700336CD2 /* Preview Assets.xcassets */; };
+		9A6160A4252E36EF00336CD2 /* CoolAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6160A3252E36EF00336CD2 /* CoolAppClipApp.swift */; };
+		9A6160A6252E36EF00336CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6160A5252E36EF00336CD2 /* ContentView.swift */; };
+		9A6160A8252E36F100336CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6160A7252E36F100336CD2 /* Assets.xcassets */; };
+		9A6160AB252E36F100336CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6160AA252E36F100336CD2 /* Preview Assets.xcassets */; };
+		9A6160B0252E36F100336CD2 /* CoolAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 9A6160A1252E36EF00336CD2 /* CoolAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6160AE252E36F100336CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A616082252E36A500336CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6160A0252E36EF00336CD2;
+			remoteInfo = CoolAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A6160B4252E36F100336CD2 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				9A6160B0252E36F100336CD2 /* CoolAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A61608A252E36A500336CD2 /* CoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A61608D252E36A500336CD2 /* CoolAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolAppApp.swift; sourceTree = "<group>"; };
+		9A61608F252E36A500336CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A616091252E36A700336CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A616094252E36A700336CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A616096252E36A700336CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6160A1252E36EF00336CD2 /* CoolAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6160A3252E36EF00336CD2 /* CoolAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolAppClipApp.swift; sourceTree = "<group>"; };
+		9A6160A5252E36EF00336CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A6160A7252E36F100336CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A6160AA252E36F100336CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A6160AC252E36F100336CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6160AD252E36F100336CD2 /* CoolAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolAppClip.entitlements; sourceTree = "<group>"; };
+		9A616148252E539800336CD2 /* OCFTDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCFTDetectSDK.framework; path = Frameworks/OCFTDetectSDK.framework; sourceTree = "<group>"; };
+		9A616149252E539800336CD2 /* PADetectAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PADetectAI.framework; path = Frameworks/PADetectAI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A616087252E36A500336CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A61609E252E36EF00336CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A616081252E36A500336CD2 = {
+			isa = PBXGroup;
+			children = (
+				9A61608C252E36A500336CD2 /* CoolApp */,
+				9A6160A2252E36EF00336CD2 /* CoolAppClip */,
+				9A61608B252E36A500336CD2 /* Products */,
+				9A616147252E539800336CD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A61608B252E36A500336CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A61608A252E36A500336CD2 /* CoolApp.app */,
+				9A6160A1252E36EF00336CD2 /* CoolAppClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A61608C252E36A500336CD2 /* CoolApp */ = {
+			isa = PBXGroup;
+			children = (
+				9A61608D252E36A500336CD2 /* CoolAppApp.swift */,
+				9A61608F252E36A500336CD2 /* ContentView.swift */,
+				9A616091252E36A700336CD2 /* Assets.xcassets */,
+				9A616096252E36A700336CD2 /* Info.plist */,
+				9A616093252E36A700336CD2 /* Preview Content */,
+			);
+			path = CoolApp;
+			sourceTree = "<group>";
+		};
+		9A616093252E36A700336CD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A616094252E36A700336CD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A6160A2252E36EF00336CD2 /* CoolAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				9A6160A3252E36EF00336CD2 /* CoolAppClipApp.swift */,
+				9A6160A5252E36EF00336CD2 /* ContentView.swift */,
+				9A6160A7252E36F100336CD2 /* Assets.xcassets */,
+				9A6160AC252E36F100336CD2 /* Info.plist */,
+				9A6160AD252E36F100336CD2 /* CoolAppClip.entitlements */,
+				9A6160A9252E36F100336CD2 /* Preview Content */,
+			);
+			path = CoolAppClip;
+			sourceTree = "<group>";
+		};
+		9A6160A9252E36F100336CD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A6160AA252E36F100336CD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A616147252E539800336CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A616148252E539800336CD2 /* OCFTDetectSDK.framework */,
+				9A616149252E539800336CD2 /* PADetectAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A616089252E36A500336CD2 /* CoolApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A616099252E36A700336CD2 /* Build configuration list for PBXNativeTarget "CoolApp" */;
+			buildPhases = (
+				9A616086252E36A500336CD2 /* Sources */,
+				9A616087252E36A500336CD2 /* Frameworks */,
+				9A616088252E36A500336CD2 /* Resources */,
+				9A6160B4252E36F100336CD2 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6160AF252E36F100336CD2 /* PBXTargetDependency */,
+			);
+			name = CoolApp;
+			productName = CoolApp;
+			productReference = 9A61608A252E36A500336CD2 /* CoolApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A6160A0252E36EF00336CD2 /* CoolAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6160B1252E36F100336CD2 /* Build configuration list for PBXNativeTarget "CoolAppClip" */;
+			buildPhases = (
+				9A61609D252E36EF00336CD2 /* Sources */,
+				9A61609E252E36EF00336CD2 /* Frameworks */,
+				9A61609F252E36EF00336CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolAppClip;
+			productName = CoolAppClip;
+			productReference = 9A6160A1252E36EF00336CD2 /* CoolAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A616082252E36A500336CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9A616089252E36A500336CD2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9A6160A0252E36EF00336CD2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A616085252E36A500336CD2 /* Build configuration list for PBXProject "CoolApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A616081252E36A500336CD2;
+			productRefGroup = 9A61608B252E36A500336CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A616089252E36A500336CD2 /* CoolApp */,
+				9A6160A0252E36EF00336CD2 /* CoolAppClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A616088252E36A500336CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A616095252E36A700336CD2 /* Preview Assets.xcassets in Resources */,
+				9A616092252E36A700336CD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A61609F252E36EF00336CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6160AB252E36F100336CD2 /* Preview Assets.xcassets in Resources */,
+				9A6160A8252E36F100336CD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A616086252E36A500336CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A616090252E36A500336CD2 /* ContentView.swift in Sources */,
+				9A61608E252E36A500336CD2 /* CoolAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A61609D252E36EF00336CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6160A6252E36EF00336CD2 /* ContentView.swift in Sources */,
+				9A6160A4252E36EF00336CD2 /* CoolAppClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A6160AF252E36F100336CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6160A0252E36EF00336CD2 /* CoolAppClip */;
+			targetProxy = 9A6160AE252E36F100336CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A616097252E36A700336CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A616098252E36A700336CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A61609A252E36A700336CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C6EJGQWN32;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CoolApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swissre.dev.smart.claim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wasim smart claim dev full App profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A61609B252E36A700336CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C6EJGQWN32;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CoolApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swissre.dev.smart.claim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wasim smart claim dev full App profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9A6160B2252E36F100336CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolAppClip/CoolAppClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = C6EJGQWN32;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CoolAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swissre.dev.smart.claim.clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wasim smart claim App clip profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A6160B3252E36F100336CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolAppClip/CoolAppClip.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"CoolAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = C6EJGQWN32;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CoolAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swissre.dev.smart.claim.clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wasim smart claim App clip profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A616085252E36A500336CD2 /* Build configuration list for PBXProject "CoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A616097252E36A700336CD2 /* Debug */,
+				9A616098252E36A700336CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A616099252E36A700336CD2 /* Build configuration list for PBXNativeTarget "CoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A61609A252E36A700336CD2 /* Debug */,
+				9A61609B252E36A700336CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6160B1252E36F100336CD2 /* Build configuration list for PBXNativeTarget "CoolAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6160B2252E36F100336CD2 /* Debug */,
+				9A6160B3252E36F100336CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A616082252E36A500336CD2 /* Project object */;
+}

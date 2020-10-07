@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CoolApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>32524CA1904DF8902961361A92CB78CECF425DA9</string>
+				<key>dateExpires</key>
+				<string>14.08.21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C6EJGQWN32.com.swissre.dev.smart.claim</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C6EJGQWN32</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>C6EJGQWN32.com.swissre.dev.smart.claim</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>CoolApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>81e10480-e466-4db3-88de-af568684e61a</string>
+				<key>name</key>
+				<string>Wasim smart claim dev full App profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C6EJGQWN32</string>
+				<key>name</key>
+				<string>Movingdots GmbH</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

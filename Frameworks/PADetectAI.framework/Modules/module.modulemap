@@ -1,0 +1,6 @@
+framework module PADetectAI {
+  umbrella header "PADetectAI.h"
+
+  export *
+  module * { export * }
+}
